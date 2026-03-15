@@ -160,3 +160,15 @@ def search_contact(args: CommandArgs, context: CommandContext) -> None:
 ```
 
 The `dispatcher` will automatically handle argument validation based on the `args` and `optional_args` provided in the decorator.
+
+### Where and how the application can be used
+
+Contacts Notes Assistant (CNA) is a CLI-based personal assistant designed to manage contacts and notes. The application can be used for:
+
+- storing and organizing contact information (names, phone numbers, emails, addresses, birthdays);
+- creating and managing text notes;
+- searching contacts and notes using keywords or tags;
+- tracking upcoming birthdays;
+- managing personal information quickly from the command line.
+
+### All data is stored locally on the user’s machine, allowing the assistant to work offline and retain data between sessions.
